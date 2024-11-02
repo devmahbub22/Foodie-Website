@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 50px 80px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header .navbar {
+  width: 100%;
+  /* background: aqua; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-stl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px;
+}
+
+.navbar .nav-stl .text {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Lobster", sans-serif;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.navbar .nav-stl .text span {
+  font-size: 28px;
+  color: #ff7426;
+}
+
+.navbar .nav-menu .nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list .nav-item {
+  padding-left: 60px;
+  font-size: 12px;
+}
+
+.nav-list .nav-item .nav-link {
+  color: black;
+}
+
+.navbar .icon .i-icon {
+  padding-right: 20px;
+  color: black;
+  font-style: none;
+}
+
+/* hero / banner section css is here */
+
+.section-contant {
+  display: flex;
+}
+
+.section-contant .wrapper-1 {
+  padding: 50px;
+  background-color: #e7fafe;
+  flex: 1;
+}
+.section-contant .wrapper-1 a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 11px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.section-contant .wrapper-1 h1 {
+  margin-top: 20px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-contant .wrapper-1 p{
+  color: rgb(0, 0, 0, .6);
+  
+}
+
+.section-contant .wrapper-2 {
+  flex: 1;
+}
+
+.section-contant .wrapper-2 img {
+  width: 100%;
+  height: 100%;
+}

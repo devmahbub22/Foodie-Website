@@ -78,6 +78,8 @@ header .navbar {
   padding: 50px;
   background-color: #e7fafe;
   flex: 1;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 .section-contant .wrapper-1 a {
   text-decoration: none;
@@ -93,9 +95,37 @@ header .navbar {
   font-weight: 700;
 }
 
-.section-contant .wrapper-1 p{
-  color: rgb(0, 0, 0, .6);
-  
+.section-contant .wrapper-1 p {
+  color: rgb(0, 0, 0, 0.6);
+  margin-top: 13px;
+}
+.section-contant .wrapper-1 .message {
+  display: flex;
+  gap: 15px;
+}
+.section-contant .wrapper-1 .message p {
+  background-color: rgb(0, 0, 0, 0.2);
+  padding: 8px 16px;
+  border-radius: 30px;
+}
+
+.section-contant .honer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.section-contant .honer .smith {
+  display: flex;
+  gap: 16px;
+}
+
+
+
+.section-contant .honer .smith p{
+color: black;
+font-weight: bold;
 }
 
 .section-contant .wrapper-2 {

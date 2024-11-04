@@ -118,14 +118,16 @@ header .navbar {
 
 .section-contant .honer .smith {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
+.section-contant .honer .smith p {
+  margin-top: 0;
+}
 
-
-
-.section-contant .honer .smith p{
-color: black;
-font-weight: bold;
+.section-contant .honer .smith p {
+  color: black;
+  font-weight: bold;
 }
 
 .section-contant .wrapper-2 {
@@ -135,4 +137,121 @@ font-weight: bold;
 .section-contant .wrapper-2 img {
   width: 100%;
   height: 100%;
+}
+
+.honer .dishes {
+  color: white;
+  padding: 14px 30px;
+  background: black;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+/* menu-section stylling */
+
+.section-content .menu .img {
+  width: 70px;
+  height: 70px;
+}
+
+.section-content .menu .text {
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.section-content .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-content .title .diss {
+  font-size: 48px;
+  font-style: 600;
+}
+
+.section-content .title .diff {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 25px;
+  background: #e7fafe;
+  border-radius: 8px;
+}
+
+.section-content .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 77px;
+}
+
+.section-content .menu .menu-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  padding: 30px 40px;
+}
+.section-content .menu .menu-box .img {
+  box-shadow: 6px 4px 10px rgba(128, 128, 128, 0.4);
+}
+
+.section-content .menu .one {
+  background-image: linear-gradient(
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1)
+  );
+}
+
+.section-content .menu .two {
+  background-image: linear-gradient(
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1)
+  );
+}
+
+.section-content .menu .three {
+  background-image: linear-gradient(
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1)
+  );
+}
+
+.section-content .menu .four {
+  background-image: linear-gradient(
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1)
+  );
+}
+
+.section-content .menu .five {
+  background-image: linear-gradient(
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1)
+  );
+}
+
+.section-content .menu .six {
+  background-image: linear-gradient(
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1)
+  );
+}
+
+/* recipe styling */
+.recipe-contant .recipe-ttle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recipe-contant .recipe-ttle h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.recipe-contant .recipe-ttle p{
+  width: 650px;
+  text-align: center;
+  margin-top: 24px;
 }

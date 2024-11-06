@@ -239,19 +239,87 @@ header .navbar {
 }
 
 /* recipe styling */
-.recipe-contant .recipe-ttle{
+
+.recipe-contant .recipe-ttle {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.recipe-contant .recipe-ttle h1{
+.recipe-contant .recipe-ttle h1 {
   font-size: 48px;
   font-weight: 600;
 }
 
-.recipe-contant .recipe-ttle p{
+.recipe-contant .recipe-ttle p {
   width: 650px;
   text-align: center;
   margin-top: 24px;
 }
+
+.recipe-contant .recipe-menu-container {
+  margin-top: 96px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.recipe-contant .recipe-menu-container .single-menu {
+  background-image: linear-gradient(
+    rgb(231, 249, 253, 0),
+    rgb(231, 249, 253, 1)
+  );
+
+  border-radius: 30px;
+  padding: 16px;
+  position: relative;
+  width: calc(100% / 3 - 20px);
+}
+
+.recipe-contant .recipe-menu-container .single-menu .icon {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+  z-index: 12;
+  background-color: white;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.recipe-contant .recipe-menu-container .single-menu .icon i {
+  color: #dbe2e5;
+  font-size: 21px;
+
+}
+.recipe-contant .recipe-menu-container .single-menu .icon:hover i {
+  color: #ff6363;
+  transition: all ease-in-out 0.3s;
+}
+
+.recipe-contant .recipe-menu-container .single-menu .menu-img img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.recipe-contant .recipe-menu-container .menu-info h1 {
+  margin: 24px;
+  font-size: 24px;
+  font-weight: 600px;
+}
+
+.recipe-contant .recipe-menu-container .menu-info .time {
+  margin: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.recipe-contant .recipe-menu-container .menu-info .time p {
+  padding-right: 54px;
+}
+
+.single-menu .ads-img{
+  width: 100%;
+}
+
+
